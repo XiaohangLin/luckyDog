@@ -1,0 +1,156 @@
+.chat-log {
+  max-height: 400px;
+  overflow-y: scroll;
+  padding: 10px;
+  font-family: "Ubuntu-Italic", "Lucida Sans", helvetica, sans;
+  background-color: #f5f5f5;
+  border-radius: 20px 20px 0 0;
+}
+
+.chat-log div {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.chat-log .user {
+  justify-content: flex-end;
+}
+
+.chat-log .chatbot {
+  justify-content: flex-start;
+}
+
+.chat-log .message {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-input {
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+.chat-input input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  outline: none;
+}
+
+.chat-input input:focus {
+  box-shadow: 0px 0px 10px rgba(66, 133, 244, 0.5);
+}
+
+
+/* Navbar styling */
+.navbar {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  font-family: 'Montserrat', sans-serif; 
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif; 
+  font-weight: bold; 
+  text-transform: uppercase; 
+  letter-spacing: 2px; 
+}
+
+.navbar-brand:hover {
+  color: #007bff; /* mouse on, change color */
+}
+
+#chat-dog-button, #chat-guy-button {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #000;
+  transition: color 0.3s ease-in-out;
+  text-transform: uppercase;
+}
+
+#chat-dog-button:hover, #chat-guy-button:hover {
+  color: #007bff;
+}
+
+/* Card styling */
+.card {
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.card-footer {
+  border-radius: 0 0 20px 20px;
+  border-top: none;
+}
+
+/* Chat log styling */
+.chat-log {
+  height: 400px;
+  overflow-y: scroll;
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 20px 20px 0 0;
+}
+
+.chat-log p {
+  margin-bottom: 0;
+}
+
+/* Chat input styling */
+.chat-input {
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 0 0 20px 20px;
+}
+
+.form-control {
+  border-radius: 25px;
+  border: none;
+}
+
+.btn-primary {
+  border-radius: 25px;
+  border: none;
+  background-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+}
+
+/* Footer styling */
+footer {
+  background-color: #f5f5f5;
+  padding: 15px;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #6c757d;
+}
+
+footer a {
+  color: #6c757d;
+}
+
+footer a:hover {
+  color: #007bff;
+}
+
+.img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-image: url('../img/goat.gif');
+    background-size: cover;
+} 
